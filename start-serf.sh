@@ -1,2 +1,2 @@
 #!/bin/bash
-exec serf agent -role wordpress
+exec serf agent -role mysql
