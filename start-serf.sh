@@ -1,2 +1,2 @@
 #!/bin/bash
-exec serf agent -tag role=mysql
+exec serf agent -tag role=db
