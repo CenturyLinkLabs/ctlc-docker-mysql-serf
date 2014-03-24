@@ -6,7 +6,7 @@ RUN apt-get update
 RUN apt-get -y upgrade
 RUN ! DEBIAN_FRONTEND=noninteractive apt-get -qy install supervisor unzip mysql-server pwgen; ls
 
-ADD https://dl.bintray.com/mitchellh/serf/0.4.1_linux_amd64.zip serf.zip
+ADD https://dl.bintray.com/mitchellh/serf/0.5.0_linux_amd64.zip serf.zip
 RUN unzip serf.zip
 RUN rm serf.zip
 RUN mv serf /usr/bin/
